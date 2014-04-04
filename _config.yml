@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Distiller
+tagline:          build and deploy ios apps faster
+description:      Hosted Continuous Integration for iOS
+url:              http://distiller.io
+
+author:
+  name:           The Distiller Team
+  url:            http://distiller.io
+
+paginate:         1
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/distiller/distiller.github.io
