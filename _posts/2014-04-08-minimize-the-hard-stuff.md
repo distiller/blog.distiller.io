@@ -40,9 +40,9 @@ There's obviously a ton of queueing software out there, but it's not like we're 
 
 [Iron.io](http://www.iron.io/) also happens to offer [IronWorker](http://www.iron.io/worker), which we can trigger directly off of their ["push queues"](http://dev.iron.io/mq/reference/push_queues/). When we have on-demand jobs that don't require the precious resources of our OS X build boxes, we use these. For example, requesting a deploy only requires fetching the built assets, adding the release notes, and pushing them to TestFlight.
 
-### Other
+### And More
 
-There are many other pieces required to get a build service off the ground, and we'll probably get to talking about our use of these over time, but for now here's a short list of other services we've leveraged.
+Here are some of the other great services we used to get Distiller off the ground:
 
 * **Authentication**: [GitHub OAuth](https://developer.github.com/v3/oauth/)
 * **Email**: [SendGrid](http://sendgrid.com)
