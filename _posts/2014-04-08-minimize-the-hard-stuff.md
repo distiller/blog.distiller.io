@@ -10,7 +10,7 @@ From an implementation perspective, this approach requires that we clearly defin
 
 ## The Hard Part
 
-Consistently building for iOS is surprisingly hard. It only takes a few minutes on [Stack Overflow](http://stackoverflow.com/questions/tagged/xcodebuild) to see *how* hard. The iOS developer ecosystem outside of Apple has produced some amazing tools, such as [CocoaPods](http://cocoapods.org), [Kiwi](https://github.com/allending/Kiwi), and [TestFlight](https://testflightapp.com/) to name a few. But developers have to make consistently herculean efforts to keep these tools running within Apple's toolchain. And that's for one team on one project. We're supporting every tool we can find in any manner that a developer has used it.
+Consistently building for iOS is surprisingly hard. It only takes a few minutes on [Stack Overflow](http://stackoverflow.com/questions/tagged/xcodebuild) to see *how* hard. The iOS developer ecosystem outside of Apple has produced some amazing tools–[CocoaPods](http://cocoapods.org), [Kiwi](https://github.com/allending/Kiwi), and [TestFlight](https://testflightapp.com/) to name a few–but developers have to make consistently herculean efforts to keep those tools running in the context of Apple's ever-changing toolchain. While it's challenging for a single team with a single project, our problem is an order of magnitude larger: supporting every tool we can find in any manner that a developer has used it.
 
 Additionally, running these tools requires managed OS X environments. No [Docker](https://www.docker.io/), no [Heroku](https://www.heroku.com/), no [AWS](http://aws.amazon.com/). Stripped of our usual bag of tricks, we've had a lot to figure out.
 
@@ -59,7 +59,7 @@ Even among engineers who have rallied behind building a service on top of existi
 * [Premature Generalization](http://c2.com/cgi/wiki?PrematureGeneralization)
 * [Planning for vs. Reacting to Change](http://devlicio.us/blogs/billy_mccafferty/archive/2006/09/20/Planning-for-vs.-Reacting-to-Change.aspx)
 
-But you also don't want to go digging in every corner of your source when that one change does come up. You also don't want to listen to an endless stream of "I told you so." The great news is, the kind of programming structure that keeps us sane on a daily basis (i.e. some semblence of organization) is all that's needed to prepare for this case. If you can't figure out where all the email code is when you decide to switch providers, how do you figure it out when you need to modify how you use the current provider? Stick to that kind of thinking and when the $$$ start rolling in, you can deal with any issues in your current infrastructure.
+But you also don't want to go digging in every corner of your source when that one change does come up. You also don't want to listen to an endless stream of "I told you so." The great news is, the kind of programming structure that keeps us sane on a daily basis (i.e. some semblence of organization) is all that's needed to prepare for this case. If you can't figure out where all the email code is when you decide to switch providers, how do you figure it out when you need to modify your use of the current provider? Stick to that kind of thinking and when the money starts rolling in, you can deal with any issues in your current infrastructure.
 
 ## Conclusion
 
