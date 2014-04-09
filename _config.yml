@@ -22,3 +22,14 @@ version:          1.0.0
 
 github:
   repo:           https://github.com/distiller/distiller.github.io
+
+authors:
+  jim:
+    name: Jim Rose
+    display_name: Jim Rose
+  rob:
+    name: Rob Zuber
+    display_name: Rob Zuber
+  travis:
+    name: Travis Vachon
+    display_name: Travis Vachon

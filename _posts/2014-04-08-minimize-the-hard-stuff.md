@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Minimize the Hard Stuff
+author: rob
 ---
 
 ## Overview
