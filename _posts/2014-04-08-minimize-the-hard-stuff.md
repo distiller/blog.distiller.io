@@ -1,3 +1,8 @@
+---
+layout: post
+title: Minimize the Hard Stuff
+---
+
 ## Overview
 
 We're huge proponents of operating lean and validating our assumptions as quickly as possible. It's not only *why* we built [Distiller](http://distiller.io), it's *how* we built it.
