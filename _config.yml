@@ -33,3 +33,6 @@ authors:
   travis:
     name: Travis Vachon
     display_name: Travis Vachon
+  team:
+    name: The Distiller Team
+    display_name: The Distiller Team
