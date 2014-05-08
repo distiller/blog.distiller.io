@@ -21,7 +21,7 @@ paginate:         1
 version:          1.0.0
 
 github:
-  repo:           https://github.com/distiller/distiller.github.io
+  repo:           https://github.com/distiller/blog.distiller.io
 
 authors:
   jim:
