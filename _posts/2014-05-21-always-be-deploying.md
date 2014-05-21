@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Always Be Deploying. Introducing one-click deploys with Hockey App.
+title: Always Be Deploying. Introducing One-Click Deploys with Hockey App.
 author: jim
 ---
 
